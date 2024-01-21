@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noticia+Text&display=swap');
+
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+header {
+    height: 20vh;
+    background-color:#FACF2B;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #022C5E;
+    transform: translateY(5px);
+    font-size: 45px;
+    font-family: 'Dela Gothic One', sans-serif;
+    letter-spacing: 5px;
+}
+
+nav {
+    background-color: #022C5E;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin-left: 70%;
+}
+
+li {
+  list-style-type: none;
+  font-size: 20px;
+  display: flex;
+  padding: 5px 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: yellow;
+    border-radius: 3px;
+ }
+
+li:hover a:link, li:hover a:visited {
+    color: #022C5E;
+ }
+
+.news {
+    height: 120vh;
+}
+
+.headline h1 {
+    width: 60%;
+    margin: 5% 0 0 7%;
+    border-left: #FACF2B solid 5px;
+    padding-left: 1%;
+    color:#022C5E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.mini-info {
+    margin-left: 10%;
+}
+
+.mini-info a {
+    color:#022C5E;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.image-container {
+    height: 505;
+    width: 50%;
+    margin: 5% 0 0 10%;
+    border-left:  #022C5E solid 10px;
+}
+.image-container img {
+   padding-left: 5%;
+}
+
+.reaction {
+    width: 100%;
+    height: 80vh;
+    background-color: #022C5E;
+}
+
+.desciption-container {
+    width: 85%;
+
+}
+
+.description  {
+    margin: 0 5% 0 5%;
+
+}
+
+.description p {
+    border-left: solid 5px white;
+    padding-left: 5%;
+    font-family: 'Noticia Text', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 3%;
+    color: white;
+    transform: translateY(50px);
+}
